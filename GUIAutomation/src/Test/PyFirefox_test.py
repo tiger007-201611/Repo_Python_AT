@@ -8,6 +8,7 @@ import time
 from selenium import webdriver
 
 def test_FFBrowser():
+    
     browser = webdriver.Firefox()
     time.sleep(10)
     browser.get('http://www.baidu.com')
@@ -17,4 +18,4 @@ def test_FFBrowser():
     browser.get('http://192.168.1.11:8686/view/PythonAT/job/MyFirstPyProject/ws/tiger/log.html')
     time.sleep(10)
     browser.close()
-test_FFBrowser()
+#test_FFBrowser()
